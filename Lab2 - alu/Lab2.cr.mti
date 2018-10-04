@@ -1,0 +1,27 @@
+{C:/Users/thadd/Desktop/Computer Architecture/Lab2.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Lab2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package dlx_types
+-- Loading package bv_arithmetic
+-- Compiling entity alu
+-- Compiling architecture behaviour of alu
+** Warning: C:/Users/thadd/Desktop/Computer Architecture/Lab2.vhd(173): (vcom-1272) Length of expected is 32; length of actual is 8.
+
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/bva.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/bva.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package bv_arithmetic
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/dlx-types.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/dlx-types.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package dlx_types
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/bva-b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/bva-b.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package body bv_arithmetic
+-- Loading package bv_arithmetic
+
+} {} {}}
