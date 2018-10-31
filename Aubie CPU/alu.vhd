@@ -48,11 +48,14 @@ use work.bv_arithmetic.all;
 
 entity alu is 
     generic(prop_delay: Time := 15 ns);
-    port ( operand1: in dlx_word;
-           operand2: in dlx_word; 
-           operation: in alu_operation_code;
-           result: out dlx_word; 
-           error: out error_code );
+    port 
+    ( 
+        operand1    : in dlx_word;
+        operand2    : in dlx_word; 
+        operation   : in alu_operation_code;
+        result      : out dlx_word; 
+        error       : out error_code
+    );
 end entity alu;
 
 architecture behaviour of alu is 
