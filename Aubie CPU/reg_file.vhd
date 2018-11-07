@@ -1,6 +1,3 @@
-use work.dlx_types.all;
-use work.bv_arithmetic.all;
-
 -- Entity: reg_file
 --
 -- Specification:   
@@ -16,14 +13,17 @@ use work.bv_arithmetic.all;
 --         data_out       ->  dlx_word ; if write is being performed, will be assigned a value contained in a specified register
 --                                       if read is being performed, holds no meaningful value
 
+use work.dlx_types.all;
+use work.bv_arithmetic.all;
+
 entity reg_file is 
     generic(prop_delay : Time := 10 ns);
     port
     ( 
         data_in              : in dlx_word; 
         readnotwrite, clock  : in bit;
-        reg_number           : in register_index
-        data_out             : out dlx_word;
+        reg_number           : in register_index;
+        data_out             : out dlx_word
     );
 end entity reg_file;
 
@@ -34,45 +34,49 @@ begin
         --- Define reg_type as an array of 32 registers, each register being represented by a 32-bit dlx_word
         type reg_type is array (0 to 31) of dlx_word;
         ---
-        variable temp_data_out_val : dlx_word := x"00000000"
+        variable temp_data_out_val : dlx_word := x"00000000";
         variable registers : reg_type;
         -- may need index variable if register_index type cannot be used for registers indexing
 
         begin 
             -- while clock is 0 (i.e. not equal to 1), do nothing
-            while (clock /= "1") loop
-            end loop;
-
-            case readnotwrite is
-                when "0" =>   -- perform register write
-                    registers(register_index) := data_in;
+            if clock = '1' then
+                case readnotwrite is
+                    when '0' =>   -- perform register write
+                        registers(bv_to_integer(reg_number)) := data_in;
                     
-                when "1" =>   -- perform register read
-                    data_out <= registers(register_index) after prop_delay;
-            end case;
+                    when '1' =>   -- perform register read
+                        data_out <= registers(bv_to_integer(reg_number)) after prop_delay;
+                end case;
+            end if;
+        end process;
+end architecture;
 
-        end process
-end architecture
+-- 32-bit Single Value Register:  
+--      This will be used everywhere in the chip that a temporary value should be stored. 
+
+use work.dlx_types.all;
+use work.bv_arithmetic.all;
 
 entity dlx_register is 
     port
     (
-        in_val   : in dlx_word;
+        in_val   : in dlx_word; 
         clock    : in bit;
-        out_val  : out dlx_word;
-    )
+        out_val  : out dlx_word
+    );
 end entity dlx_register;
 
--- 32-bit Single Value Register:  
---      This will be used everywhere in the chip that a temporary value should be stored. 
 architecture behaviour of dlx_register is
 begin
-    dlxReg_process : process(in_val, clock, out_val) is
+    dlxReg_process : process(in_val, clock) is
         begin
-            -- while clock is 0 (i.e. not equal to 1), do nothing
-            while (clock /= "1") loop
-            end loop;   
-            -- once clock equal to 1, set out_val equal to in_val
-            out_val <= in_val;
-        end process
-end architecture
+            -- if clock = 1
+            if clock = '1' then
+                -- once clock equal to 1, set out_val equal to in_val
+                out_val <= in_val;
+            else 
+                out_val <= "00000000";
+            end if;
+        end process;
+end architecture;
