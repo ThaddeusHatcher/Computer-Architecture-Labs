@@ -219,7 +219,7 @@ force -freeze sim:/reg_file/readnotwrite 1
 force -freeze sim:/reg_file/clock 0
 force -freeze sim:/reg_file/reg_number 4'h00000001 0
 run 50 ns
-
+ 
 force -freeze sim:/reg_file/data_in 32'h00AAAAAA 0 
 force -freeze sim:/reg_file/readnotwrite 1
 force -freeze sim:/reg_file/clock 0

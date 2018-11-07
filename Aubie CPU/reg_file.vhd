@@ -12,7 +12,6 @@
 --         reg_number     ->  register_index ; indicates which register a read/write will be performed with
 --         data_out       ->  dlx_word ; if write is being performed, will be assigned a value contained in a specified register
 --                                       if read is being performed, holds no meaningful value
-
 use work.dlx_types.all;
 use work.bv_arithmetic.all;
 
@@ -21,18 +20,18 @@ entity reg_file is
     port
     ( 
         data_in              : in dlx_word; 
-        readnotwrite, clock  : in bit;
+        readnotwrite         : in bit;
+        clock                : in bit;
         reg_number           : in register_index;
         data_out             : out dlx_word
     );
 end entity reg_file;
 
 architecture behaviour of reg_file is
+    --- Define reg_type as an array of 32 registers, each register being represented by a 32-bit dlx_word
+    type reg_type is array (0 to 31) of dlx_word;
 begin
     regProcess : process(data_in, readnotwrite, clock, reg_number) is
-        
-        --- Define reg_type as an array of 32 registers, each register being represented by a 32-bit dlx_word
-        type reg_type is array (0 to 31) of dlx_word;
         ---
         variable temp_data_out_val : dlx_word := x"00000000";
         variable registers : reg_type;
@@ -48,35 +47,6 @@ begin
                     when '1' =>   -- perform register read
                         data_out <= registers(bv_to_integer(reg_number)) after prop_delay;
                 end case;
-            end if;
-        end process;
-end architecture;
-
--- 32-bit Single Value Register:  
---      This will be used everywhere in the chip that a temporary value should be stored. 
-
-use work.dlx_types.all;
-use work.bv_arithmetic.all;
-
-entity dlx_register is 
-    port
-    (
-        in_val   : in dlx_word; 
-        clock    : in bit;
-        out_val  : out dlx_word
-    );
-end entity dlx_register;
-
-architecture behaviour of dlx_register is
-begin
-    dlxReg_process : process(in_val, clock) is
-        begin
-            -- if clock = 1
-            if clock = '1' then
-                -- once clock equal to 1, set out_val equal to in_val
-                out_val <= in_val;
-            else 
-                out_val <= "00000000";
             end if;
         end process;
 end architecture;
