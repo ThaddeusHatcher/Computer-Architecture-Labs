@@ -1,0 +1,169 @@
+{C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find work.dlx_types.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd(45): (vcom-1195) Cannot find expanded name "work.dlx_types".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd(45): Unknown expanded name.
+** Error: (vcom-11) Could not find work.bv_arithmetic.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd(46): (vcom-1195) Cannot find expanded name "work.bv_arithmetic".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd(46): Unknown expanded name.
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/alu.vhd(49): VHDL Compiler exiting
+
+} {4.0 5.0 8.0 10.0 13.0 15.0} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/datapath_aubie_v1.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/datapath_aubie_v1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find work.dlx_types.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/datapath_aubie_v1.vhd(4): (vcom-1195) Cannot find expanded name "work.dlx_types".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/datapath_aubie_v1.vhd(4): Unknown expanded name.
+-- Loading package bv_arithmetic
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/datapath_aubie_v1.vhd(7): VHDL Compiler exiting
+
+} {4.0 5.0 8.0 9.0 10.0 11.0} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx-types.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx-types.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package dlx_types
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/bva-b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/bva-b.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package body bv_arithmetic
+-- Loading package bv_arithmetic
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/control_aubie_v1.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/control_aubie_v1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package bv_arithmetic
+** Error: (vcom-11) Could not find work.dlx_types.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/control_aubie_v1.vhd(8): (vcom-1195) Cannot find expanded name "work.dlx_types".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/control_aubie_v1.vhd(8): Unknown expanded name.
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/control_aubie_v1.vhd(10): VHDL Compiler exiting
+
+} {5.0 6.0 9.0 11.0} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx_register.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx_register.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find work.dlx_types.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx_register.vhd(4): (vcom-1195) Cannot find expanded name "work.dlx_types".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx_register.vhd(4): Unknown expanded name.
+-- Loading package bv_arithmetic
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/dlx_register.vhd(7): VHDL Compiler exiting
+
+} {4.0 5.0 8.0 9.0 10.0 11.0} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find work.dlx_types.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd(15): (vcom-1195) Cannot find expanded name "work.dlx_types".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd(15): Unknown expanded name.
+** Error: (vcom-11) Could not find work.bv_arithmetic.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd(16): (vcom-1195) Cannot find expanded name "work.bv_arithmetic".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd(16): Unknown expanded name.
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/reg_file.vhd(18): VHDL Compiler exiting
+
+} {4.0 5.0 8.0 10.0 13.0 15.0} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/bva.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/bva.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package bv_arithmetic
+
+} {} {}} {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package bv_arithmetic
+-- Loading package dlx_types
+-- Compiling entity aubie
+-- Compiling architecture struct of aubie
+** Error: (vcom-11) Could not find work.aubie_controller.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(42): (vcom-1195) Cannot find expanded name "work.aubie_controller".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(42): Unknown expanded name.
+** Error: (vcom-11) Could not find work.memory.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(66): (vcom-1195) Cannot find expanded name "work.memory".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(66): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(74): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(74): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(80): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(80): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(86): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(86): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(92): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(92): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(98): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(98): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(104): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(104): Unknown expanded name.
+** Error: (vcom-11) Could not find work.dlx_register.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(110): (vcom-1195) Cannot find expanded name "work.dlx_register".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(110): Unknown expanded name.
+** Error: (vcom-11) Could not find work.reg_file.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(116): (vcom-1195) Cannot find expanded name "work.reg_file".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(116): Unknown expanded name.
+** Error: (vcom-11) Could not find work.alu.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(124): (vcom-1195) Cannot find expanded name "work.alu".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(124): Unknown expanded name.
+** Error: (vcom-11) Could not find work.mux.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(132): (vcom-1195) Cannot find expanded name "work.mux".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(132): Unknown expanded name.
+** Error: (vcom-11) Could not find work.threeway_mux.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(139): (vcom-1195) Cannot find expanded name "work.threeway_mux".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(139): Unknown expanded name.
+** Error: (vcom-11) Could not find work.threeway_mux.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(147): (vcom-1195) Cannot find expanded name "work.threeway_mux".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(147): Unknown expanded name.
+** Error: (vcom-11) Could not find work.threeway_mux.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(155): (vcom-1195) Cannot find expanded name "work.threeway_mux".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(155): Unknown expanded name.
+** Error: (vcom-11) Could not find work.pcplusone.
+
+** Error (suppressible): C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(163): (vcom-1195) Cannot find expanded name "work.pcplusone".
+
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(163): Unknown expanded name.
+** Error: C:/Users/thadd/Desktop/Computer Architecture/Computer-Architecture-Labs/Aubie-CPU/interconnect_aubie.vhd(169): VHDL Compiler exiting
+
+} {8.0 9.0 12.0 14.0 17.0 19.0 22.0 24.0 27.0 29.0 32.0 34.0 37.0 39.0 42.0 44.0 47.0 49.0 52.0 54.0 57.0 59.0 62.0 64.0 67.0 69.0 72.0 74.0 77.0 79.0 82.0 84.0 87.0 89.0} {}}
